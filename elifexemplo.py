@@ -1,0 +1,6 @@
+n = float(input("digite a nota do aluno de 0 a 100 : "))
+if n < 0 or n > 100 : print("nota invalida")
+elif n >= 90 : print("Conseito A")
+elif n >=80 : print("Conseito B")
+elif n >=70 : print("Conseito C")
+elif n < 70 : print(" Conseito D")
